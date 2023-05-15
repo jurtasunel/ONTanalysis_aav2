@@ -14,9 +14,9 @@
 ##################################################################################################################################################################################################
 
 # Get paths of data, reference and scripts directory.
-data_path="/home/josemari/Desktop/Jose/Projects/AAV2/Data/120523_run/Samples"
-reference="/home/josemari/Desktop/Jose/Reference_sequences/AAV2/NC_001401.2.fasta"
-scripts="/home/josemari/Desktop/Jose/Projects/AAV2/Scripts"
+data_path="/path/to/data"
+reference="/path/to/reference/reference.fasta"
+scripts="/path/to/scripts_dir/"
 
 # Get all the sample names on the data path.
 files=(${data_path}/*) # files will store the full path of the directories.
